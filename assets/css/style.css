@@ -1,7 +1,8 @@
 body {
     background-image: url("https://www.sideshowtoy.com/wp-content/uploads/2014/12/indiana-jones-temple-of-doom-sixth-scale-feature-3914-2.jpg");
     background-repeat: no-repeat; 
-    background-size: 1675px 900px;  
+    background-size: 1675px 1000px;
+    height: 900px;   
 
 }
 
@@ -28,21 +29,29 @@ body {
     padding-top: 20px; 
 }
 
+#imgWrapper {
+    position: relative;
+    float: left; 
+    width: 600px; 
+    margin: 180px 10px; 
+    height: 100px; 
+
+}
+
 #crystalOne {
     display:inline-block; 
-    margin-right: 80%; 
+    
 }
 #crystalTwo {
     display:inline-block; 
-    margin-right: 70%; 
+    
 }
 #crystalThree {
     display:inline-block; 
-    margin-right: 60%; 
+    
 }
 #crystalFour {
     display:inline-block; 
-    margin-right: 50%; 
 }
 
 #numberContainer {

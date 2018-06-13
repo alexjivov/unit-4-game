@@ -10,7 +10,7 @@
    
 </head>
 <body>
-    
+    <script>document.onload= startGame()</script>
     <h1 id="header">Crystal Collectors!</h1>
 
     <div id="textContainer">
@@ -27,11 +27,12 @@
 
     <div id="numberContainer"></div>
     <div id="scoreContainer">
-        <p>Wins: </p>
+        <p id="wins">Wins: </p>
         <br> 
-        <p>Losses: </p>
+        <p id="losses">Losses: </p>
     </div>
     
+    <div id="imgWrapper">
         <div id="crystalOne">
             <img src="assets/images/crystal1.jpg" width=100px, height="100px">
         </div>
@@ -44,11 +45,13 @@
         <div id="crystalFour">
             <img src="assets/images/crystal4.jpg" width=100px, height="100px">
         </div>
-    
+    </div>
+
     <div id="scoreCounter">Your Total Score Is:</div>
 
     <div id="totalNumber"> </div>
 
-<script src="main.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
 </body>
 </html>
