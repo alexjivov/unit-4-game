@@ -1,0 +1,87 @@
+body {
+    background-image: url("https://www.sideshowtoy.com/wp-content/uploads/2014/12/indiana-jones-temple-of-doom-sixth-scale-feature-3914-2.jpg");
+    background-repeat: no-repeat; 
+    background-size: 1675px 900px;  
+
+}
+
+#header {
+    font-size: x-large; 
+    font-weight: bold; 
+    background-color: orange;
+    width: 200px;
+    height: 50px; 
+    color: white; 
+    text-align: center;
+    margin: 10px 10px; 
+    padding-top: 25px; 
+}
+
+#textContainer {
+    font-weight: bold; 
+    background-color: #f0e3b0;
+    width: 500px;
+    height: 300px; 
+    color: green;
+    margin: 10px 10px; 
+    overflow: hidden;
+    padding-top: 20px; 
+}
+
+#crystalOne {
+    display:inline-block; 
+    margin-right: 80%; 
+}
+#crystalTwo {
+    display:inline-block; 
+    margin-right: 70%; 
+}
+#crystalThree {
+    display:inline-block; 
+    margin-right: 60%; 
+}
+#crystalFour {
+    display:inline-block; 
+    margin-right: 50%; 
+}
+
+#numberContainer {
+    font-weight: bold; 
+    color: white; 
+    background-color: #30be63;
+    width: 270px; 
+    height: 120px; 
+    margin: 10px 10px; 
+    padding-top: 20px;
+    float: left;
+}
+
+#scoreContainer {
+    font-weight: bold; 
+    background-color: aqua;
+    width: 100px;
+    height: 120px; 
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 10px 10px;
+    float: left; 
+}
+
+#scoreCounter {
+    color: white; 
+    background-color: #2b7036;
+    width: 270px; 
+    height: 25px; 
+    clear: both;
+    padding-top: 15px; 
+    margin: 10px 10px;    
+}
+
+#totalNumber {
+    color: white; 
+    background-color: #2b7036;
+    width: 270px; 
+    height: 100px; 
+    padding-top: 15px; 
+    margin: 10px 10px;    
+}
