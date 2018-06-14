@@ -31,31 +31,37 @@ body {
 
 #imgWrapper {
     position: relative;
-    float: left; 
-    width: 600px; 
-    margin: 180px 10px; 
-    height: 100px; 
+    width: 500px;
+    margin: 10px 10px;
 
+}
+
+img {
+    width: 100px;
+    height: 100px
 }
 
 #crystalOne {
-    display:inline-block; 
+    display:inline-block;
     
 }
 #crystalTwo {
-    display:inline-block; 
+    display:inline-block;
     
 }
 #crystalThree {
-    display:inline-block; 
+    display:inline-block;
     
 }
 #crystalFour {
-    display:inline-block; 
+    display:inline-block;
+ 
 }
 
 #numberContainer {
     font-weight: bold; 
+    font-size: 100px; 
+    text-align: center;
     color: white; 
     background-color: #30be63;
     width: 270px; 
