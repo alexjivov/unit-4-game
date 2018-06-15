@@ -10,7 +10,7 @@ var totalScore = 0;
 var ScoreCounter = 0;
 
 function startGame () {
-   startNumber = Math.floor((Math.random() *120) + 19); 
+   startNumber = Math.floor((Math.random() * 120) + 19); 
   // Random number at game start //
   $('#numberContainer').text(startNumber);
   $('#wins').text("Wins: " + wins);
@@ -28,6 +28,9 @@ startGame();
 function reset () {
   startGame(); 
   scoreCounter = 0; 
+  wins = 0;
+  totalScore = 0;
+  losses = 0; 
   console.log("scoreCounter");
 }
 
@@ -37,9 +40,13 @@ function checkWin() {
     if (totalScore === startNumber) {
         wins++; 
         $('#wins').text("Wins " + wins);
+        alert("You Win!");
+        reset();
     } else if (totalScore > startNumber) {
         losses++; 
         $('#losses').text("Losses " + losses);
+        alert("You Lose!");
+        reset(); 
     } else if (totalScore < startNumber) {
         return; 
     }
